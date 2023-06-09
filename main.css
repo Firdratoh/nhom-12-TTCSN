@@ -186,6 +186,10 @@
     display: block;
   }
   
+  .unactive{
+      display: none;
+  }
+  
   .auth-section .login-modal {
     position: relative;
     bottom: auto;
@@ -241,16 +245,6 @@
     padding: 40px 32px 0 32px;
     position: relative;
     background: #fff;
-  }
-  
-  .auth-section .sign-in-wrap {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .auth-section .sign-up-wrap{
-    display: flex;
-    flex-wrap: wrap;
   }
   
   .auth-section .head-mobile {
@@ -470,6 +464,8 @@
   }
 
   .auth-section .login-modal__footer__text {
+    justify-content: center;
+    display: flex;
     font: 14px/14px Lato-regular,sans-serif;
     color: #8c8582;
     text-align: center;
@@ -482,12 +478,16 @@
     color: #b32656;
   }
 
-  a.login-modal__footer__link1 {
+ button.login-modal__footer__link1 {
     outline: 0;
+    border: none;
     text-decoration: none;
+    cursor: pointer;
   }
 
-  a.login-modal__footer__link2 {
+  button.login-modal__footer__link2 {
+    cursor: pointer;
+    border: none;
     outline: 0;
     text-decoration: none;
   }

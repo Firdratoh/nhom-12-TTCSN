@@ -226,7 +226,7 @@
     </div>
   </div>
   <div class="auth-section">
-    <div class="login-modal active">
+    <div class="login-modal">
       <div class="login-modal__header">
         <div>
           <a href="" class="login-modal__close hide-mobile">
@@ -236,7 +236,7 @@
         </div>
       </div>
       <div class="login-modal__body">
-        <div class="sign-in-wrap active" style>
+        <div class="sign-in-wrap js-sign-in" style>
           <div class="head-mobile">
             <p class="login-modal__copywriting">Đăng nhập</p>
           </div>
@@ -270,8 +270,14 @@
               </button>
             </div>
           </form>
+          <div class="login-modal__footer login-footer-wrapper" style>
+            <div class="login-modal__footer__text"> Bạn chưa có tài khoản? 
+            <button onclick="showSignUp()" class="login-modal__footer__link1">Đăng ký</button>
+            </div>
+          </div>
         </div>
-        <div class="sign-up-wrap active" style="display: none;">
+        <!-- Đăng nhập -->
+        <div class="sign-up-wrap js-sign-up" >
             <div class="head-mobile">
                 <p class="login-modal__copywriting">Đăng ký</p>
             </div>
@@ -366,20 +372,17 @@
                     khi đăng ký
                 </p>
             </form>
+            <div class="login-modal__footer" >
+                <p class="login-modal__footer__text"> Bạn đã có tài khoản? 
+                <button onclick="showSignIn()"  class="login-modal__footer__link2">Đăng nhập ngay</button>
+                </p>
+              </div>
         </div>
       </div>
-      <div class="login-modal__footer login-footer-wrapper" style>
-        <p class="login-modal__footer__text"> Bạn chưa có tài khoản? 
-        <a href="" class="login-modal__footer__link1">Đăng ký</a>
-        </p>
-      </div>
-      <div class="login-modal__footer" style="display: none;">
-        <p class="login-modal__footer__text"> Bạn đã có tài khoản? 
-        <a href="" class="login-modal__footer__link2">Đăng nhập ngay</a>
-        </p>
-      </div>
+      
+      
     </div>
-    <div class="login-modal__overlay hidden-xs active"></div>
+    <div class="login-modal__overlay hidden-xs"></div>
     <!---->
   </div>
 
