@@ -496,6 +496,150 @@ body{
 }
 
 
+.home-price{
+    font-family: SVN-brandontext-regular,sans-serif;
+    margin-top: 50px;
+    border-top: 1px solid black;
+}
+.home-content{
+    height: 150px;
+}
+.home-new{
+    list-style: none;
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   margin-top: 50px;
+}
+.home-new li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.home-list{
+
+}
+.home-list img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0 25px;
+}
+.home-list h3{
+    font-size: 16px;
+    line-height: 40px;
+
+}
+.home-list p{
+    font-size: 13.5px;
+    line-height: 20px;
+}
+.email-section{
+    background-color: #fef5f7;
+    padding: 40px 0 34px;
+}
+.email-content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+.email-wrapper{
+
+}
+.email-wrapper h2{
+    font-size: 34px;
+}
+
+.email-container{
+    margin-right: 125px;
+    max-width: 1000px;
+}
+
+.form-group{
+    display: flex;
+    max-width: 700px;
+    border: 1px solid  white;
+}
+.form-group input{
+    width: 450px;
+    border: none;
+    padding: 0 15px;
+}
+.input-group{
+    display: flex;
+}
+.input-group button{
+    height: 45px;
+    max-width: 190px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.categores{
+
+}
+
+.categores-wrapper{
+    display: block;
+    box-sizing: border-box;
+    width: 1150px;
+    margin: 0 auto;
+    padding: 24px 16px 0;
+}
+.categores p{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.categores-list{
+    display: inline-table;
+}
+.categores-list li{
+    width: 100%;
+    max-width: 277px;
+    display: inline-table;
+    word-wrap: break-word;
+}
+.categores-list li a{
+    text-decoration: none;
+}
+.categores-title{
+    font: 14px/15px SVN-brandontext-bold,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    color: black;
+}
+.categores-content{
+    margin-bottom: 20px;
+}
+.categores-content li{
+    display: inline-block;
+    word-wrap: break-word;
+    width: auto;
+    font: 13px/23px Lato-regular,sans-serif;
+}
+.categores-content li::after{
+    content: ",";
+    color: #7c8582;
+}
+.categores-content .categores-section::after{
+    content: "";
+    color: #7c8582;
+}
+
+
+
+
+
+
 
 
 
