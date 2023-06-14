@@ -330,6 +330,7 @@ body{
     background-color: #fcfcfc;
     padding-top: 20px;
     padding-bottom: 40px;
+    margin-top: 50px;
 }
 .blog{
     width: 1140px;
@@ -340,13 +341,13 @@ body{
     display: table; 
 }
 .blog-top h2{
-   font-size: 40px;
+   font-size: 34px;
     position: relative;
   text-align: center;
 }
 .blog-bottom{
     display: flex;
-    /* overflow-y: hidden; */
+     overflow-y: hidden; 
     justify-content: space-between;
     -webkit-box-pack: justify;
     margin: 0;
@@ -361,7 +362,7 @@ body{
 }
 #price{
     margin-top: 20px;
-    background-color:rgb(71 212 34)
+    /* background-color:rgb(71 212 34) */
 }
 .price-list{
     padding-top: 20px;
@@ -373,7 +374,7 @@ body{
 .infor-list{
     list-style: none;
     min-height: 300px;
-    background-color: orange;
+    /* background-color: orange; */
 }
 .wrapper-list{
     
@@ -457,7 +458,7 @@ body{
     margin-top: 210px;
     width:202px ;
     margin-left: -194px;
-    background-color: yellow;
+    background-color: ;
 }
 .product-infor a{
     letter-spacing: 1.5px;
@@ -634,6 +635,146 @@ body{
     content: "";
     color: #7c8582;
 }
+.social{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.social-wrapper{
+    clear: both;
+    background: none;
+    display: flex;
+    height: 95px;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 95px;
+}
+
+.social-list i{
+    font-size: 25px;
+    margin: 0 7px;
+}
+.information-section{
+    padding: 36px 0 40px;
+}
+.information-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.information-menu,.information-payment,.information-app,.information-title{
+    width: 20%;
+}
+
+.menu-title{
+    font: 14px/15px SVN-brandontext-bold,sans-serif;
+    margin: 0 0 12px;
+    letter-spacing: 2px;
+    color: #282828;
+    text-transform: uppercase;
+}
+.menu-list{
+    list-style: none;
+}
+.menu-list li{
+    font: 14px/28px Lato-regular,sans-serif;
+    color: #333;
+    height: 30px;
+}
+.menu-list li a{
+    text-decoration: none;
+}
+
+.payment-list{
+    list-style: none;
+    max-width: 100%;
+    text-align: left;
+    width: 60%;
+    margin-left: -9px;
+}
+.payment-list li{
+    width: 46px;
+    display: inline-block;
+    margin: 3px;
+   
+    overflow: hidden;
+}
+
+.payment-list li img{
+    width: 40px;
+    height: 30px;
+}
+
+.information-app{
+    width: 15%;
+}
+.menu-app-content{
+    font: 13px/21px Lato-regular,sans-serif;
+    color: #333;
+}
+.menu-app-left{
+    margin: 17px 0 0;
+    display: flex;
+}
+.menu-app-left img{
+    width: 90px;
+    height: 90px;
+}
+.menu-app-right{
+   margin-left: 15px;
+   width: min-content;
+    height: 90px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.menu-app-right li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+.menu-app-right img{
+    width: 120px;
+    height: 40px;
+}
+
+
+.title-img img{
+    width: 212px;
+    height: 80px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    background-color: #fff8fa;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-list{
+  
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0;
+    font: 12px/15px Lato-regular,sans-serif;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    color: #a66378;
+    line-height: 19px;
+}
+
+
+
+
+
+
+
+
 
 
 
